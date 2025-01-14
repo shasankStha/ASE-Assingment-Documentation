@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AppCommandFactoryTest | Shasank Shrestha ASE Assingment </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AppCommandFactoryTest | Shasank Shrestha ASE Assingment ">
+      
+      <meta name="description" content="Unit test class to verify the behavior of the AppCommandFactory. This class ensures that the AppCommandFactory correctly creates command objects based on a provided command string.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/new/main/apiSpec/new?filename=ASE_Assignment_Test_CoreTest_AppCommandFactoryTest.md&amp;value=---%0Auid%3A%20ASE_Assignment_Test.CoreTest.AppCommandFactoryTest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Shasank Shrestha ASE Assingment">
+            Shasank Shrestha ASE Assingment
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest">
+
+
+
+  <h1 id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest" class="text-break">
+Class AppCommandFactoryTest  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment_Test/CoreTest/AppCommandFactoryTest.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ASE_Assignment_Test.html">ASE_Assignment_Test</a>.<a class="xref" href="ASE_Assignment_Test.CoreTest.html">CoreTest</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ASE_Assignment_Test.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Unit test class to verify the behavior of the AppCommandFactory.
+This class ensures that the AppCommandFactory correctly creates command objects
+based on a provided command string.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestClass]
+public class AppCommandFactoryTest</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AppCommandFactoryTest</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest_Setup_" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest.Setup*"></a>
+
+  <h3 id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest_Setup" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest.Setup">
+  Setup()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment_Test/CoreTest/AppCommandFactoryTest.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestInitialize]
+public void Setup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest_TestMakeCommand_" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest.TestMakeCommand*"></a>
+
+  <h3 id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest_TestMakeCommand_System_String_System_Type_" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest.TestMakeCommand(System.String,System.Type)">
+  TestMakeCommand(string, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment_Test/CoreTest/AppCommandFactoryTest.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the behavior of the AppCommandFactory by verifying that the correct command type is created
+based on the given command string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+[DataRow(new object?[] { &quot;tri&quot;, typeof(AppTriangle) })]
+[DataRow(new object?[] { &quot;write&quot;, typeof(AppWrite) })]
+[DataRow(new object?[] { &quot;rect&quot;, typeof(AppRectangle) })]
+[DataRow(new object?[] { &quot;circle&quot;, typeof(AppCircle) })]
+[DataRow(new object?[] { &quot;int&quot;, typeof(AppInt) })]
+[DataRow(new object?[] { &quot;real&quot;, typeof(AppReal) })]
+[DataRow(new object?[] { &quot;array&quot;, typeof(AppArray) })]
+[DataRow(new object?[] { &quot;while&quot;, typeof(AppWhile) })]
+[DataRow(new object?[] { &quot;if&quot;, typeof(AppIf) })]
+[DataRow(new object?[] { &quot;for&quot;, typeof(AppFor) })]
+[DataRow(new object?[] { &quot;else&quot;, typeof(AppElse) })]
+[DataRow(new object?[] { &quot;method&quot;, typeof(AppMethod) })]
+[DataRow(new object?[] { &quot;end&quot;, typeof(AppEnd) })]
+public void TestMakeCommand(string commandType, Type expectedType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>expectedType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest_TestMakeCommand_InvalidCommandType_" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest.TestMakeCommand_InvalidCommandType*"></a>
+
+  <h3 id="ASE_Assignment_Test_CoreTest_AppCommandFactoryTest_TestMakeCommand_InvalidCommandType" data-uid="ASE_Assignment_Test.CoreTest.AppCommandFactoryTest.TestMakeCommand_InvalidCommandType">
+  TestMakeCommand_InvalidCommandType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment_Test/CoreTest/AppCommandFactoryTest.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests the MakeCommand method by providing an invalid command string and verifying
+that a FactoryException is thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_InvalidCommandType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment_Test/CoreTest/AppCommandFactoryTest.cs/#L19" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
