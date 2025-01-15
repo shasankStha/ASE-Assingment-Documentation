@@ -1257,6 +1257,60 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.Commands.AppRectangle.Execute
   nameWithType: AppRectangle.Execute
+- uid: ASE_Assignment.Commands.AppStar
+  name: AppStar
+  href: api/ASE_Assignment.Commands.AppStar.html
+  commentId: T:ASE_Assignment.Commands.AppStar
+  fullName: ASE_Assignment.Commands.AppStar
+  nameWithType: AppStar
+- uid: ASE_Assignment.Commands.AppStar.#ctor
+  name: AppStar()
+  href: api/ASE_Assignment.Commands.AppStar.html#ASE_Assignment_Commands_AppStar__ctor
+  commentId: M:ASE_Assignment.Commands.AppStar.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.Commands.AppStar.AppStar()
+  fullName.vb: ASE_Assignment.Commands.AppStar.New()
+  nameWithType: AppStar.AppStar()
+  nameWithType.vb: AppStar.New()
+- uid: ASE_Assignment.Commands.AppStar.#ctor*
+  name: AppStar
+  href: api/ASE_Assignment.Commands.AppStar.html#ASE_Assignment_Commands_AppStar__ctor_
+  commentId: Overload:ASE_Assignment.Commands.AppStar.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.Commands.AppStar.AppStar
+  fullName.vb: ASE_Assignment.Commands.AppStar.New
+  nameWithType: AppStar.AppStar
+  nameWithType.vb: AppStar.New
+- uid: ASE_Assignment.Commands.AppStar.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: api/ASE_Assignment.Commands.AppStar.html#ASE_Assignment_Commands_AppStar_CheckParameters_System_String___
+  commentId: M:ASE_Assignment.Commands.AppStar.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: ASE_Assignment.Commands.AppStar.CheckParameters(string[])
+  fullName.vb: ASE_Assignment.Commands.AppStar.CheckParameters(String())
+  nameWithType: AppStar.CheckParameters(string[])
+  nameWithType.vb: AppStar.CheckParameters(String())
+- uid: ASE_Assignment.Commands.AppStar.CheckParameters*
+  name: CheckParameters
+  href: api/ASE_Assignment.Commands.AppStar.html#ASE_Assignment_Commands_AppStar_CheckParameters_
+  commentId: Overload:ASE_Assignment.Commands.AppStar.CheckParameters
+  isSpec: "True"
+  fullName: ASE_Assignment.Commands.AppStar.CheckParameters
+  nameWithType: AppStar.CheckParameters
+- uid: ASE_Assignment.Commands.AppStar.Execute
+  name: Execute()
+  href: api/ASE_Assignment.Commands.AppStar.html#ASE_Assignment_Commands_AppStar_Execute
+  commentId: M:ASE_Assignment.Commands.AppStar.Execute
+  fullName: ASE_Assignment.Commands.AppStar.Execute()
+  nameWithType: AppStar.Execute()
+- uid: ASE_Assignment.Commands.AppStar.Execute*
+  name: Execute
+  href: api/ASE_Assignment.Commands.AppStar.html#ASE_Assignment_Commands_AppStar_Execute_
+  commentId: Overload:ASE_Assignment.Commands.AppStar.Execute
+  isSpec: "True"
+  fullName: ASE_Assignment.Commands.AppStar.Execute
+  nameWithType: AppStar.Execute
 - uid: ASE_Assignment.Commands.AppTriangle
   name: AppTriangle
   href: api/ASE_Assignment.Commands.AppTriangle.html
@@ -1587,6 +1641,22 @@ references:
   isSpec: "True"
   fullName: ASE_Assignment.Core.AppCanvas.SetColour
   nameWithType: AppCanvas.SetColour
+- uid: ASE_Assignment.Core.AppCanvas.Star(System.Int32,System.Boolean)
+  name: Star(int, bool)
+  href: api/ASE_Assignment.Core.AppCanvas.html#ASE_Assignment_Core_AppCanvas_Star_System_Int32_System_Boolean_
+  commentId: M:ASE_Assignment.Core.AppCanvas.Star(System.Int32,System.Boolean)
+  name.vb: Star(Integer, Boolean)
+  fullName: ASE_Assignment.Core.AppCanvas.Star(int, bool)
+  fullName.vb: ASE_Assignment.Core.AppCanvas.Star(Integer, Boolean)
+  nameWithType: AppCanvas.Star(int, bool)
+  nameWithType.vb: AppCanvas.Star(Integer, Boolean)
+- uid: ASE_Assignment.Core.AppCanvas.Star*
+  name: Star
+  href: api/ASE_Assignment.Core.AppCanvas.html#ASE_Assignment_Core_AppCanvas_Star_
+  commentId: Overload:ASE_Assignment.Core.AppCanvas.Star
+  isSpec: "True"
+  fullName: ASE_Assignment.Core.AppCanvas.Star
+  nameWithType: AppCanvas.Star
 - uid: ASE_Assignment.Core.AppCanvas.Tri(System.Int32,System.Int32)
   name: Tri(int, int)
   href: api/ASE_Assignment.Core.AppCanvas.html#ASE_Assignment_Core_AppCanvas_Tri_System_Int32_System_Int32_
@@ -1769,15 +1839,15 @@ references:
   commentId: T:ASE_Assignment.Core.AppStoredProgram
   fullName: ASE_Assignment.Core.AppStoredProgram
   nameWithType: AppStoredProgram
-- uid: ASE_Assignment.Core.AppStoredProgram.#ctor(BOOSE.ICanvas)
-  name: AppStoredProgram(ICanvas)
-  href: api/ASE_Assignment.Core.AppStoredProgram.html#ASE_Assignment_Core_AppStoredProgram__ctor_BOOSE_ICanvas_
-  commentId: M:ASE_Assignment.Core.AppStoredProgram.#ctor(BOOSE.ICanvas)
-  name.vb: New(ICanvas)
-  fullName: ASE_Assignment.Core.AppStoredProgram.AppStoredProgram(BOOSE.ICanvas)
-  fullName.vb: ASE_Assignment.Core.AppStoredProgram.New(BOOSE.ICanvas)
-  nameWithType: AppStoredProgram.AppStoredProgram(ICanvas)
-  nameWithType.vb: AppStoredProgram.New(ICanvas)
+- uid: ASE_Assignment.Core.AppStoredProgram.#ctor(ASE_Assignment.Core.AppCanvas)
+  name: AppStoredProgram(AppCanvas)
+  href: api/ASE_Assignment.Core.AppStoredProgram.html#ASE_Assignment_Core_AppStoredProgram__ctor_ASE_Assignment_Core_AppCanvas_
+  commentId: M:ASE_Assignment.Core.AppStoredProgram.#ctor(ASE_Assignment.Core.AppCanvas)
+  name.vb: New(AppCanvas)
+  fullName: ASE_Assignment.Core.AppStoredProgram.AppStoredProgram(ASE_Assignment.Core.AppCanvas)
+  fullName.vb: ASE_Assignment.Core.AppStoredProgram.New(ASE_Assignment.Core.AppCanvas)
+  nameWithType: AppStoredProgram.AppStoredProgram(AppCanvas)
+  nameWithType.vb: AppStoredProgram.New(AppCanvas)
 - uid: ASE_Assignment.Core.AppStoredProgram.#ctor*
   name: AppStoredProgram
   href: api/ASE_Assignment.Core.AppStoredProgram.html#ASE_Assignment_Core_AppStoredProgram__ctor_

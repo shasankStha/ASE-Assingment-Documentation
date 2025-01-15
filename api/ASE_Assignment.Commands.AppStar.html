@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppMethod | Shasank Shrestha ASE Assignment Documentation </title>
+      <title>Class AppStar | Shasank Shrestha ASE Assignment Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppMethod | Shasank Shrestha ASE Assignment Documentation ">
+      <meta name="title" content="Class AppStar | Shasank Shrestha ASE Assignment Documentation ">
       
-      <meta name="description" content="Method implementation that inherits functionality from the  class.">
+      <meta name="description" content="Command to draw a star on the canvas. Allows drawing a star with specified dimensions and an option to fill flag.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/new/main/apiSpec/new?filename=ASE_Assignment_Commands_AppMethod.md&amp;value=---%0Auid%3A%20ASE_Assignment.Commands.AppMethod%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/new/main/apiSpec/new?filename=ASE_Assignment_Commands_AppStar.md&amp;value=---%0Auid%3A%20ASE_Assignment.Commands.AppStar%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ASE_Assignment.Commands.AppMethod">
+        <article data-uid="ASE_Assignment.Commands.AppStar">
 
 
 
-  <h1 id="ASE_Assignment_Commands_AppMethod" data-uid="ASE_Assignment.Commands.AppMethod" class="text-break">
-Class AppMethod  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppMethod.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ASE_Assignment_Commands_AppStar" data-uid="ASE_Assignment.Commands.AppStar" class="text-break">
+Class AppStar  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppStar.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,13 @@ Class AppMethod  <a class="header-action link-secondary" title="View source" hre
   <dl><dt>Assembly</dt><dd>ASE_Assignment.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Method implementation that inherits functionality from the <span class="xref">BOOSE.Method</span> class.</p>
+  <div class="markdown summary"><p>Command to draw a star on the canvas.
+Allows drawing a star with specified dimensions and an option to fill flag.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppMethod : Method, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppStar : CanvasCommand, ICommand</code></pre>
   </div>
 
 
@@ -113,12 +114,8 @@ Class AppMethod  <a class="header-action link-secondary" title="View source" hre
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><span class="xref">Command</span></div>
-      <div><span class="xref">Evaluation</span></div>
-      <div><span class="xref">Boolean</span></div>
-      <div><span class="xref">ConditionalCommand</span></div>
-      <div><span class="xref">CompoundCommand</span></div>
-      <div><span class="xref">Method</span></div>
-      <div><span class="xref">AppMethod</span></div>
+      <div><span class="xref">CanvasCommand</span></div>
+      <div><span class="xref">AppStar</span></div>
     </dd>
   </dl>
 
@@ -134,76 +131,16 @@ Class AppMethod  <a class="header-action link-secondary" title="View source" hre
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Method.CheckParameters(string[])</a>
+      <span class="xref">CanvasCommand.yPos</span>
     </div>
     <div>
-      <span class="xref">Method.Compile()</span>
+      <span class="xref">CanvasCommand.xPos</span>
     </div>
     <div>
-      <span class="xref">Method.Execute()</span>
+      <span class="xref">CanvasCommand.canvas</span>
     </div>
     <div>
-      <span class="xref">Method.LocalVariables</span>
-    </div>
-    <div>
-      <span class="xref">Method.MethodName</span>
-    </div>
-    <div>
-      <span class="xref">Method.Type</span>
-    </div>
-    <div>
-      <span class="xref">CompoundCommand.ReduceRestrictions()</span>
-    </div>
-    <div>
-      <span class="xref">CompoundCommand.CorrespondingCommand</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.endLineNumber</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.EndLineNumber</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.Condition</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.LineNumber</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.CondType</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.ReturnLineNumber</span>
-    </div>
-    <div>
-      <span class="xref">Boolean.BoolValue</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.expression</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.evaluatedExpression</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.varName</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.value</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
-    </div>
-    <div>
-      <span class="xref">Evaluation.Expression</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.VarName</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.Value</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.Local</span>
+      <span class="xref">CanvasCommand.Canvas</span>
     </div>
     <div>
       <span class="xref">Command.program</span>
@@ -219,6 +156,9 @@ Class AppMethod  <a class="header-action link-secondary" title="View source" hre
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -270,20 +210,19 @@ Class AppMethod  <a class="header-action link-secondary" title="View source" hre
 </h2>
 
 
-  <a id="ASE_Assignment_Commands_AppMethod__ctor_" data-uid="ASE_Assignment.Commands.AppMethod.#ctor*"></a>
+  <a id="ASE_Assignment_Commands_AppStar__ctor_" data-uid="ASE_Assignment.Commands.AppStar.#ctor*"></a>
 
-  <h3 id="ASE_Assignment_Commands_AppMethod__ctor" data-uid="ASE_Assignment.Commands.AppMethod.#ctor">
-  AppMethod()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppMethod.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_Commands_AppStar__ctor" data-uid="ASE_Assignment.Commands.AppStar.#ctor">
+  AppStar()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppStar.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Constructor to initializes a new instance of the <a class="xref" href="ASE_Assignment.Commands.AppMethod.html">AppMethod</a> class.<br>
-Reduces the restriction in the <span class="xref">BOOSE.CompoundCommand</span> class when initialized.</p>
+  <div class="markdown level1 summary"><p>Constructor to initializes a new instance of the <a class="xref" href="ASE_Assignment.Commands.AppStar.html">AppStar</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppMethod()</code></pre>
+    <pre><code class="lang-csharp hljs">public AppStar()</code></pre>
   </div>
 
 
@@ -302,19 +241,58 @@ Reduces the restriction in the <span class="xref">BOOSE.CompoundCommand</span> c
 </h2>
 
 
-  <a id="ASE_Assignment_Commands_AppMethod_Restrictions_" data-uid="ASE_Assignment.Commands.AppMethod.Restrictions*"></a>
+  <a id="ASE_Assignment_Commands_AppStar_CheckParameters_" data-uid="ASE_Assignment.Commands.AppStar.CheckParameters*"></a>
 
-  <h3 id="ASE_Assignment_Commands_AppMethod_Restrictions" data-uid="ASE_Assignment.Commands.AppMethod.Restrictions">
-  Restrictions()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppMethod.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_Commands_AppStar_CheckParameters_System_String___" data-uid="ASE_Assignment.Commands.AppStar.CheckParameters(System.String[])">
+  CheckParameters(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppStar.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Overrides the <span class="xref">BOOSE.Boolean.Restrictions()</span> method.</p>
+  <div class="markdown level1 summary"><p>This validates the parameters for the star command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Restrictions()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameterList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameterList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>An array of parameterList passed to the command.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CommandException</span></dt>
+    <dd><p>Throw CommandException when the parameterList are null, missing, or outside the allowed range.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ASE_Assignment_Commands_AppStar_Execute_" data-uid="ASE_Assignment.Commands.AppStar.Execute*"></a>
+
+  <h3 id="ASE_Assignment_Commands_AppStar_Execute" data-uid="ASE_Assignment.Commands.AppStar.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppStar.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This executes the star command and validates if parameters are then 1 or 2 and draws the star.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
   </div>
 
 
@@ -326,6 +304,12 @@ Reduces the restriction in the <span class="xref">BOOSE.CompoundCommand</span> c
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CommandException</span></dt>
+    <dd><p>Throw CommandException if star parameters are missing, invalid, or exceed the allowed range.</p>
+</dd>
+  </dl>
 
 
 
@@ -333,7 +317,7 @@ Reduces the restriction in the <span class="xref">BOOSE.CompoundCommand</span> c
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppMethod.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-shasankStha/blob/main/ASE_Assignment/Commands/AppStar.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

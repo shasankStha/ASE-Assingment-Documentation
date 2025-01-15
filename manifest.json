@@ -232,6 +232,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.Commands.AppStar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.Commands.AppStar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ASE_Assignment.Commands.AppTriangle.yml",
       "output": {
         ".html": {
